@@ -1,10 +1,11 @@
 package com.bklineeducate;
 
-import com.bklineeducate.mycollections.ListIntro;
+import com.bklineeducate.mycollections.ListMethods;
 
 public class Main {
     public static void main(String[] args) {
-        ListIntro myList = new ListIntro();
-        myList.verData();
+        ListMethods myList = new ListMethods();
+        myList.viewNames();
+        myList.modifyItem(1);
     }
 }
